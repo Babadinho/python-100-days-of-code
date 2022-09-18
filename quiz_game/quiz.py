@@ -17,9 +17,9 @@ initialize()
 while gameEnd == False:
 	print(logo)
 	print(pointNotice)
-	print(f"Compare A: {currentData[-2][0]['name']}, a {currentData[-2][0]		['description']}, from {currentData[-2][0]['country']}")
+	print(f"Compare A: {currentData[-2][0]['name']}, a {currentData[-2][0]['description']}, from {currentData[-2][0]['country']}")
 	print(vs)
-	print(f"Compare B: {currentData[-1][0]['name']}, a {currentData[-1][0]		['description']}, from {currentData[-1][0]['country']}\n")
+	print(f"Compare B: {currentData[-1][0]['name']}, a {currentData[-1][0]['description']}, from {currentData[-1][0]['country']}\n")
 	
 	def myAnswer(answer):
 		clear()
