@@ -6,7 +6,6 @@ currentData = []
 gameEnd = False
 points = 0
 pointNotice = ""
-playAgain = ""
 
 def initialize():
 	for option in data:
